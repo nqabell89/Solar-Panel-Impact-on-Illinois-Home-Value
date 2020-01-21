@@ -1,2 +1,2 @@
-# solar-energy-cost-vs-investment
+# solar-energy-analysis
 
