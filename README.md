@@ -1,27 +1,25 @@
-# solar-energy-analysis
+# Solar Panel Impact on IL Home Sales
 ## Table of contents
-* [General info](#general-info)
+* [General Info](#general-info)
 * [Technologies](#technologies)
-* [Repisotory content](#setup)
+* [Repository Contents](#setup)
 
-## General info
-This project is to study the impact of having a solar panel in the house as a feature, analysing the market time satistics, the value of the house. In order to do that we  have used inferentiel statistics tools, we selected a sample randomly from 'www.Mls.com/..' and we considered that as our main population. Then we flitered the houses that have solar panels and study them as a sample of our main population. 
-By observing the dataframe and calculating the mean, the variance and standard deviation we eneded up with the first Hypotheis:
-Hypothesis 1: Homes with solar panel systems have a higher average value than homes in general. We used z test to find out about statistical signficance about our H alternative.
-Hypothesis 2: Existing homes with solar panel systems spend less time on the market than existing homes in general.
-The second test is to compare the average market time, in days, of existing homes with solar panels to existing homes without. 
-Hypothesis 3: New construction homes with solar panel systems spend less time on the market than new construction homes without.Hypothesis 4: Homes with solar panel systems have a final sale price closer to the original listing price when compared to homes in general.
-We used python language to build many tools to clean the data and also use some inferentiel tools from its libraries. We put everything together in a repisotory on github.
+## General Info:
+This is an initial study of the impact of solar panels on the sale of single detached homes in Illinois. The 4 assumptions that were tested are as follows:
+H1: Homes w/ solar panels have a higher average sale price than the general population.
+H2: Existing/renovated homes w/ solar panels sell faster than the general population.
+H3: New construction homes w/ solar panels sell faster than new homes without.
+H4: Homes w/ solar panels close at a higher % of asking price than the general population.
  
 	
-## Technologies
-Project is created with:
-* python: 3.3
-* version: 2.33
-* libraries : numpy,matplotlib.pyplot,pandas, seaborn, random, pickle, statsmodels, scipy 
+## Technologies Used:
+This project uses:
+* Python: 3.3
+* Jupyter Notebook
+* Python libraries: numpy, pandas, matplotlib, seaborn, scipy 
 
 	
-## Repisotory content:
-Data_processing.ipynb is a file that has the whole code including build fonctions that was used to clean up the tables we got from the website.
-Hypothesis_Testing.ipynb is a file that includes all testings for each hypothesis with some technical conclusions 
+## Repository Contents:
+Data_processing.ipynb contains the cleaning and transformation of the intital dataset, as well as pickling of dataframes to be used in the testing notebook. 
+Hypothesis_Testing.ipynb contains the hypothesis tests, visualizations, and results.
 
